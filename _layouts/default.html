@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap includes -->
+    <link href="/static/spacelab.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="text-center">{{ page.title }}</h1>
+    <nav class="nav justify-content-center">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="#">Our Queens</a>
+      <a class="nav-link" href="#">Honey</a>
+    </nav>
+
+    <div class="container-fluid">
+      {{ content }}
+    </div>
+  </body>
+</html>
+

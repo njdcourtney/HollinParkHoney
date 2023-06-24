@@ -10,8 +10,21 @@
     <!-- Bootstrap includes -->
     <link href="/static/spacelab.min.css" rel="stylesheet">
   </head>
+
   <body>
-    <h1 class="text-center">{{ page.title }}</h1>
+    <div style="border: 1px dotted green" class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-4">
+          <img class="img-fluid" src="/static/beehive-512.png" alt="Skep with bees">
+        </div>
+
+        <div class="col-8 text-center">
+          <h1 class="display-1" class="text-center">{{ page.title }}</h1>          
+        </div>
+      </div>
+
+    </div>  
+
     <nav class="nav justify-content-center">
       <a class="nav-link" href="/">Home</a>
       <a class="nav-link" href="#">Our Queens</a>
@@ -22,5 +35,10 @@
       {{ content }}
     </div>
   </body>
+  <footer>
+    <div class="container-fluid">
+      <p class="fw-lighter text-end">Copyright 2023 Nathan Courtney</p>
+    </div>
+  </footer>
 </html>
 

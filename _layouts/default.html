@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bee keeper and supplier of locally produced honey in East Leeds">
 
     <title>{{ page.title }}</title>
 
@@ -15,7 +16,7 @@
   <body>
     <div class="container-fluid">
       <div class="row align-items-center">
-        <div class="col-4">
+        <div class="col-3">
           <img class="img-fluid" src="/img/beehive-512.png" alt="Skep with bees">
         </div>
         <div class="col-8 text-center">
@@ -24,11 +25,9 @@
       </div>
     </div>  
 
-
-
     <nav class="nav justify-content-center bg-light mb-2">
       <a class="nav-link" href="/">Home</a>
-      <a class="nav-link" href="{% link queens/index.md %}">Queen bees</a>
+      <a class="nav-link" href="{% link queens.md %}">Queen bees</a>
       <a class="nav-link" href="{% link honey.md %}">Honey</a>
       <a class="nav-link" href="https://www.facebook.com/profile.php?id=100093598976055">
         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -39,13 +38,15 @@
 
     <div class="container-fluid">{{ content }}</div>
     <div class="clearfix"></div>
+
+
+    <footer>
+      <div class="container-fluid">
+        <p class="fw-lighter text-end">Copyright 2023 Nathan Courtney</p>
+      </div>
+    </footer>
+
   </body>
 
-
-  <footer>
-    <div class="container-fluid">
-      <p class="fw-lighter text-end">Copyright 2023 Nathan Courtney</p>
-    </div>
-  </footer>
-</html>
+  </html>
 

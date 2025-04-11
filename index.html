@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+{% include hero.html title="Welcome to Hollin Park Honey" subtitle="Local honey from Leeds LS8" %}
+
+<div class="row mt-4">
+    <div class="col-md-8">
+        <p>I'm an amateur bee keeper in the LS8 area of Leeds who keeps a couple of bee hives in the garden at home. I'm a member of Leeds Beekeeping Association and intermittently through the summer I have small batches of locally produced honey for sale.</p>
+        
+        <p>If you'd like to get notified of when we have honey for sale, the easiest way is to follow our Facebook page.</p>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Honey</h5>
+                        <p class="card-text">Find out more about how we produce our honey.</p>
+                        <a href="{{ '/honey' | relative_url }}" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Swarms</h5>
+                        <p class="card-text">If you have a swarm of honey bees, your local beekeeping association may be able to help you.</p>
+                        <a href="{{ '/swarms' | relative_url }}" class="btn btn-primary mt-auto">About Swarms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        {% include contact-us.html %}
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <a href="{{ '/assets/images/hives.jpeg' | relative_url }}">
+                <img src="{{ '/assets/images/hives-1024.jpeg' | relative_url }}" class="card-img-top" alt="Bee Hives at Hollin Park">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">The Hollin Park bee hives</h5>
+                <p class="card-text">Spring 2023.</p>
+            </div>
+        </div>
+    </div>
+</div> 

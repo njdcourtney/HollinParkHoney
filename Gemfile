@@ -1,4 +1,8 @@
 source "https://rubygems.org"
+
+# Specify Bundler version compatible with Ruby 2.7.1
+gem "bundler", "~> 2.2.33"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

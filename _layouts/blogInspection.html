@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% capture date_string %}
+{{ page.date | date_to_string: "ordinal", "GB" }} - {{ page.weather }}
+{% endcapture %}
+
+{% include hero.html title=page.title subtitle=date_string %}
+
+{{ content }}

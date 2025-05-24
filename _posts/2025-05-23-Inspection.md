@@ -19,7 +19,7 @@ Frame of eggs added from the blue hive.
 
 Configuration: D, QE, S, S, QE, D
 
-Uncapped queen cells found, apply swarm control. Demaree method applied. Deep boxes swapped, queen found and moved to bottom box.
+Uncapped queen cells found, apply swarm control. [Demaree](/glossary#demaree) method applied. Deep boxes swapped, queen found and moved to bottom box.
 
 Check again after 4 days to knock down queen cells.
 

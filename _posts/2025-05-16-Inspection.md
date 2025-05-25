@@ -3,8 +3,8 @@ layout: blogInspection
 title: Checking for queens
 ---
 
-
 4pm, 16C, Sunny.  
+
 Routine inspection to check for laying queens.
 
 ### Green Hive

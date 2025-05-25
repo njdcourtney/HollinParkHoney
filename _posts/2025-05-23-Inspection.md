@@ -1,9 +1,10 @@
 ---
 layout: blogInspection
 title: More swarm control
-weather: 4pm, Sunny
 ---
 
+
+4pm, 18C, Sunny.  
 Routine inspection to check for swarming and space.
 
 ### Green Hive

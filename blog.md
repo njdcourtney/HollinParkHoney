@@ -15,6 +15,5 @@ Instead, as a way of answering the question, I've decided to blog all the activi
 
 This is absolutely not meant to be any kind of course in how to keep bees. If you're looking for one of those then head to YouTube, there's hundreds (if not thousands) of them, or even better find your local [beekeeping association](https://www.bbka.org.uk/find-beekeeping-near-you) and sign for for a beginners beekeeping course. Instead this is just ma log of what I, an hobbyist with a couple of hives in my garden, end up doing as a beekeeper.
 
-{% for post in site.posts %}
-* [ {{ post.date | date_to_string: "ordinal", "GB" }} {{ post.title }}]({{ post.url }})
+{% for post in site.posts %} * [ {{ post.date | date_to_string: "ordinal", "GB" }} {{ post.title }}]({{ post.url }})
 {% endfor %}

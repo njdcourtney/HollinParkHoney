@@ -23,7 +23,12 @@ description: >-
   Local honey from Leeds LS8. Amateur beekeeping and honey production.
 baseurl: ""
 url: "https://www.hollinparkhoney.co.uk"
+logo: "/assets/images/beehive.png"
 locale: en_GB
+
+# Social Media pages
+facebook: https://www.facebook.com/profile.php?id=100093598976055
+bluesky: https://bsky.app/profile/hollinparkhoney.co.uk
 
 # Build settings
 markdown: kramdown
